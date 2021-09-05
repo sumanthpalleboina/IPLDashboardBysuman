@@ -1,0 +1,63 @@
+.gold-color {
+  background-color: #ffffff33;
+}
+.yellow-color {
+  background-color: #f7db00;
+}
+.blue-color {
+  background-color: #13418b;
+}
+.red-color {
+  background-color: #d91c1f;
+}
+.orange-color {
+  background-color: #f26d22;
+}
+
+.Team-matches-container {
+  min-height: 100vh;
+}
+.team-banner-container {
+  width: 100%;
+  height: 28vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-banner {
+  width: 90%;
+}
+.recent-Match-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .Team-matches-container {
+    background-color: #a4261d;
+    min-height: 100vh;
+  }
+  .team-banner-container {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+  }
+  .team-banner {
+    width: 90%;
+    height: 360px;
+  }
+  .recent-Match-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 65px;
+  }
+}
